@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #label{
+        width: 650px;
+        text-align: center;
+       }
+       input{
+        text-align: left;
+       }
+       #fname,#usern,#password,#addr,#age{
+        text-align: left;
+       }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2" id="label"> <label for="fname">Full Name:</label></td>
+            <td><input type="text" id="fname"></td>
+        </tr>
+        
+        <tr>
+            <td colspan="2" id="label"><label for="usern">Username:</label></td>
+            <td><input type="text" id="usern"></td>
+        </tr>
+        
+        <tr>
+            <td colspan="2" id="label"><label for="password">password:</label></td>
+            <td><input type="password" id="password"></td>
+        </tr>
+       
+        <tr>
+            <td colspan="2" id="label"><label for="repassword">Re Password:</label></td>
+            <td><input type="password" id="repassword"></td>
+        </tr>
+        <tr>
+            <td colspan="2" id="label"><label for="addr">Address:</label></td>
+            <td><input type="text" id="addr"></td>
+        </tr>
+        <tr>
+            <td colspan="2" id="label"><label for="age1">Age:</label></td>
+            <td id="age"><input type="text" id="age1"></td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td colspan="2" id="label"><label for="Gender">Gender:</label></td>
+            <td><select name="" id="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td id="label"><button type="submit">Save</button></td>
+        </tr>
+    </table>
+    
+</body>
+</html>

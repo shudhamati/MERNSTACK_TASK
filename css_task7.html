@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            background-color: mediumvioletred;
+           margin: auto;
+            height: 550px;
+            width: 800px;
+        }
+        #sub{
+            background-color: rgba(220, 20, 60, 0.552);
+            height: 450px;
+            width: 500px;
+            margin: auto;
+            color: white;
+            
+           
+            margin-top: 10px;
+        }
+        input[type="text"],input[type="email"],
+        input[type="password"]{
+            background-color: white;
+            color: darkgray;
+            margin: 5px;
+            height: 30px;
+            width: 250px;
+        }
+        textarea{
+            background-color: white;
+            color: darkgray;
+            margin: 5px;
+            height: 40px;
+            width: 250px;
+        }
+        select{
+            height: 30px;
+            width: 200px;
+            margin-left: 0;
+            margin: 0;
+        }
+        table,tr,td{
+            height: 10px;
+            width: 500px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        button{
+            height: 40px;
+            width: 300px;
+            margin-top: 10px;
+            text-align: center;
+            font-size: larger;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+      
+    </style>
+</head>
+<body>
+    <div id="main">
+        <table>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+        </table>
+        <div id="sub">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr></tr>
+                        <tr >
+                            <td id="one"><label for="name"  >Name:</label></td>
+                            <td ><input type="text" id="name" placeholder="your name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" placeholder="your email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Password">Password:</label>
+                            </td>
+                            <td>
+                                <input type="password" id="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="gender">Gender:</label></td>
+                            <td>Male: <input type="radio" name="gender"> Female: <input type="radio" name="gender"> Other: <input type="radio" name="gender"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lang">Language:</label></td>
+                            <td><select name="" id="">
+                                <option value="">Select Language</option>
+                                <option value="Hindi">Hindi</option>
+                                <option value="Marathi">Marathi</option>
+                                <option value="English">English</option>
+                                <option value="Tamil">Tamil</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="zip">Zip Code:</label></td>
+                            <td><input type="text" id="zip"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="about">About:</label></td>
+                            <td><textarea name="" id="about" cols="30" rows="3" placeholder="Write about yourself..."></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: mid;">
+                            <button> Register</button></td>
+                        </tr>
+                    </table>
+                </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-color: black;
+            border: 2px;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        input[type="text"],
+      input[type="email"],
+      input[type="password"]{
+            width: 100%;
+            box-sizing: border-box;
+        }
+         #add{
+            width: 100%;
+            box-sizing: border-box;
+        } 
+        button{
+            display: block;
+            margin-left: 600px;
+            margin-top: 10px;
+        }
+        h2{
+            color: blue;
+            margin-left: 550px;
+        }
+        
+
+      
+    </style>
+</head>
+<body ></body>
+    <h2 >Registration Form</h2>
+   
+    <table border="1">
+        <tr>
+            <td > <label for="fname"><b>First Name</b></label></td>
+            <td><input type="text" id="fname"></td>
+        </tr>
+        <tr>
+            <td ><label for="Lastname"><b>Last Name</b></label></td>
+            <td><input type="text" id="Lastname"></td>
+        </tr>
+        <tr>
+            <td ><label for="email"><b>Email</b></label></td>
+            <td><input type="email" id="email"></td>
+        </tr>
+        <tr>
+            <td ><label for="password"><b>password</b></label></td>
+            <td><input type="password" id="password"></td>
+        </tr>
+        <tr>
+            <td ><label for="repassword"><b>Re-enter password</b></label></td>
+            <td><input type="password" id="repassword"></td>
+        </tr>
+        <tr>
+            <td  ><label for="gender"><b>Gender</b></label></td>
+            <td><input type="radio"  name="s">Male
+             <hr><input type="radio"name="s">Female</td>
+        </tr>
+        <tr>
+            <td ><label for="age"><b>Age</b></label></td>
+            <td><input type="text" id="age"></td>
+        </tr>
+     
+        <tr>
+            <td ><label for="phonenum"><b>Phone number</b></label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td ><label for="addr"><b>Address</b></label></td>
+            <td><textarea name="" id="add" cols="30" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td ><label for="State"><b>State</b></label></td>
+            <td><input type="text" id="State"></td>
+        </tr>
+        <tr>
+            <td ><label for="country"><b>Country</b></label></td>
+            <td><select name="" id="country">
+                <option ></option>
+                <option value="India">India</option>
+                <option value="nigiria">Nigiria</option>
+                <option value="pakistan">Pakistan</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td > <label for="lang"><b>Language Known</b></label></td>
+            <td><input type="checkbox" id="eng">English
+                 <input type="checkbox" id="kann">Kannnada    
+        <input type="checkbox" id="hindi">hindi
+            <input type="checkbox" id="telgu">Telgu</td>
+            
+        </tr>
+        <tr>
+            <td colspan="2"> <input type="checkbox" id="he">Hereby I declare all the given details are true</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right">Login to <a href="">Ethnus</a> website</td>
+        </tr>
+    </table>
+    <button type="submit">Register</button>
+</body>
+</html>

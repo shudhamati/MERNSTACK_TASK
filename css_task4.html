@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #nav a{
+            
+            display: flex;
+            flex-direction: column;
+            margin-left: -85px;
+            margin-bottom: 5px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius:  0 5px 5px 0;
+
+        }
+        nav a:hover{
+            left: 0;
+        }
+        #about{
+            
+            background-color: lightgreen;
+        }
+        #blog{
+           
+            background-color: blue;
+        }
+        #proj{
+            background-color:red ;
+        }
+      
+        #contact{
+           
+            background-color: black;
+        }
+      
+        body{
+            border: 2px solid black;
+            margin-left: 0;
+            width: 750px;
+            height: 400px;
+        }
+        #s1{
+            display: flex;
+        }
+        #s2
+        {
+            display: flex;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div id="nav" class="sidenav">
+        
+            <div id="s1">
+            <a href="#" id="about">About</a>
+        <h1 style="margin-left: 100px;">Hoverable Sidenav Buttons</h1><br>
+    </div>
+    <div id="s2">
+        <a href="#" id="blog">Blog</a>
+        <p style="margin-left: 100px;">Hover over the buttons in the left side to open them.</p>
+        
+    </div>
+       
+       
+       <a href="#" id="proj">Project</a>
+        <a href="#" id="contact">Contact</a>
+      </div>
+    </div>
+</body>
+</html>
